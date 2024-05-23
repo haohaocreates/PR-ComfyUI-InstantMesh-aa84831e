@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-instantmesh"
+description = "ComfyUI InstantMesh is custom nodes that running TencentARC/InstantMesh into ComfyUI, this extension depends on ComfyUI-3D-Pack. Please refer to Readme carefully to install."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["pytorch-lightning==2.1.2", "rembg"]
+
+[project.urls]
+Repository = "https://github.com/jtydhr88/ComfyUI-InstantMesh"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-InstantMesh"
+Icon = ""
